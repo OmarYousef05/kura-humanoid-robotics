@@ -14,6 +14,12 @@
 
 </div>
 
+<p align="center">
+  <img src="assets/banner/robocup-2026-field-debugging.jpg" width="100%" alt="KURA team members debugging humanoid football robots on the RoboCup 2026 field in South Korea">
+</p>
+
+<p align="center"><em>Field debugging and robot preparation at RoboCup 2026 in South Korea.</em></p>
+
 > [!IMPORTANT]
 > This is a personal technical portfolio documenting my experience as a KURA team member. It is not the official KURA repository and does not represent the team as a whole.
 
@@ -22,6 +28,12 @@
 KURA is the Khalifa University Robotics Team. This repository documents my robotics journey as part of the team, with a focus on humanoid football robots and the engineering work required to prepare them for real competition environments.
 
 My experience included developing, testing, debugging, and deploying software within a ROS-based robotics architecture. This portfolio highlights that work, the technical lessons behind it, and international RoboCup competition experience without publishing the complete team codebase.
+
+<p align="center">
+  <img src="assets/team/kura-team-rcap-2025.png" width="100%" alt="KURA team featured after RoboCup Asia-Pacific 2025 in Abu Dhabi">
+</p>
+
+<p align="center"><em>KURA at RoboCup Asia-Pacific 2025 in Abu Dhabi.</em></p>
 
 ## My role
 
@@ -126,6 +138,17 @@ My work included:
 
 No private logs, credentials, robot configuration, or restricted implementation details are published here.
 
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="assets/technical/rcap-2025-robot-debugging.jpg" width="100%" alt="Robot debugging at RCAP 2025"><br><sub>Robot debugging · RCAP 2025</sub></td>
+    <td width="50%" align="center"><img src="assets/technical/rcap-2025-field-integration.jpg" width="100%" alt="Field integration work at RCAP 2025"><br><sub>Field integration · RCAP 2025</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="assets/technical/robocup-2026-field-testing.jpg" width="100%" alt="Field testing at RoboCup 2026"><br><sub>Field testing · RoboCup 2026</sub></td>
+    <td width="50%" align="center"><img src="assets/technical/robocup-2026-system-debugging.jpg" width="100%" alt="System debugging beside a KURA robot at RoboCup 2026"><br><sub>System debugging · RoboCup 2026</sub></td>
+  </tr>
+</table>
+
 ## Technical toolbox
 
 | Robotics and autonomy | Software and platforms | Engineering practice |
@@ -139,41 +162,47 @@ No private logs, credentials, robot configuration, or restricted implementation 
 
 ## Image gallery
 
-Images will be added only after confirming that they are suitable for public portfolio use. To add photos, place all of the original image files in [`image-drop/`](image-drop/) without sorting or renaming them first. I can then review their visible content, give them clear filenames, move them into the appropriate galleries below, update this README, and remove any image folders that remain unused.
-
-> [!NOTE]
-> The `image-drop/` folder is a temporary inbox. Only add images that you have permission to publish and check that they do not show private code, credentials, internal logs, robot configuration, or restricted material.
+### KURA humanoid robots
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong>Robot</strong><br><code>assets/robots/main-robot.jpg</code></td>
-    <td width="50%" valign="top"><strong>KURA team</strong><br><code>assets/team/kura-team.jpg</code></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>Field debugging</strong><br><code>assets/technical/field-debugging.jpg</code></td>
-    <td width="50%" valign="top"><strong>Robot testing</strong><br><code>assets/technical/robot-testing.jpg</code></td>
+    <td width="50%" align="center"><img src="assets/robots/kura-robots-robocup-2026.jpg" width="100%" alt="Three KURA humanoid football robots at RoboCup 2026"><br><sub>KURA robots on the competition field</sub></td>
+    <td width="50%" align="center"><img src="assets/robots/kura-robot-lineup-robocup-2026.jpg" width="100%" alt="KURA humanoid robot lineup at RoboCup 2026"><br><sub>Competition robot lineup · South Korea</sub></td>
   </tr>
 </table>
 
-<details>
-<summary><strong>Planned competition galleries</strong></summary>
+### RoboCup Asia-Pacific 2025 · Abu Dhabi
 
-| Event | Planned image locations |
-|---|---|
-| RCAP 2025 · Abu Dhabi | `assets/competitions/rcap-2025-abu-dhabi/competition-01.jpg`<br>`assets/competitions/rcap-2025-abu-dhabi/competition-02.jpg` |
-| RCAP 2026 · Tianjin | `assets/competitions/rcap-2026-tianjin/competition-01.jpg`<br>`assets/competitions/rcap-2026-tianjin/competition-02.jpg` |
-| RoboCup 2026 · South Korea | `assets/competitions/robocup-2026-south-korea/competition-01.jpg`<br>`assets/competitions/robocup-2026-south-korea/competition-02.jpg` |
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="assets/competitions/rcap-2025-abu-dhabi/humanoid-match.jpg" width="100%" alt="Humanoid robots playing football at RCAP 2025"><br><sub>Humanoid football match</sub></td>
+    <td width="50%" align="center"><img src="assets/competitions/rcap-2025-abu-dhabi/omar-field-support.jpg" width="100%" alt="Omar Yousef supporting field operations at RCAP 2025"><br><sub>Field support during competition</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="assets/competitions/rcap-2025-abu-dhabi/omar-accreditation.jpg" width="100%" alt="Omar Yousef RCAP 2025 participant accreditation"><br><sub>RCAP 2025 accreditation</sub></td>
+    <td width="50%" align="center"><img src="assets/competitions/rcap-2025-abu-dhabi/omar-al-emarat-tv-interview.jpg" width="100%" alt="Omar Yousef interviewed by Al Emarat TV at RCAP 2025"><br><sub>Interview with Al Emarat TV</sub></td>
+  </tr>
+</table>
 
-</details>
+### RoboCup 2026 · South Korea
 
-<!--
-Public-use approval required before uncommenting image elements.
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="assets/competitions/robocup-2026-south-korea/team-field-preparation.jpg" width="100%" alt="KURA members preparing robots on the RoboCup 2026 field"><br><sub>Team field preparation</sub></td>
+    <td width="50%" align="center"><img src="assets/competitions/robocup-2026-south-korea/robot-diagnostics.jpg" width="100%" alt="Robot diagnostics at RoboCup 2026"><br><sub>Robot diagnostics and recovery</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="assets/competitions/robocup-2026-south-korea/robot-field-test.jpg" width="100%" alt="KURA humanoid robot field test at RoboCup 2026"><br><sub>Robot field test</sub></td>
+    <td width="50%" align="center"><img src="assets/competitions/robocup-2026-south-korea/omar-accreditation.jpg" width="100%" alt="Omar Yousef RoboCup 2026 accreditation in Incheon"><br><sub>RoboCup 2026 accreditation · Incheon</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="assets/competitions/robocup-2026-south-korea/omar-tv-interview-backstage.jpg" width="100%" alt="Omar Yousef during RoboCup 2026 television filming"><br><sub>Competition filming on the field</sub></td>
+    <td width="50%" align="center"><img src="assets/competitions/robocup-2026-south-korea/omar-tv-interview.jpg" width="100%" alt="Omar Yousef interviewed at RoboCup 2026"><br><sub>RoboCup 2026 interview</sub></td>
+  </tr>
+</table>
 
-![Main humanoid robot](assets/robots/main-robot.jpg)
-![KURA team](assets/team/kura-team.jpg)
-![Field debugging](assets/technical/field-debugging.jpg)
-![Robot testing](assets/technical/robot-testing.jpg)
--->
+> [!NOTE]
+> Four additional South Korea photos are preserved in their original HEIC/HEIF format in the event folder. They are not embedded here because GitHub does not reliably render those formats inline.
 
 ## Competition results
 
@@ -185,6 +214,12 @@ KURA reached the finals at ADNEC in Abu Dhabi and achieved:
 - **KidSize Humanoid League — second place**
 
 Results for RoboCup Asia-Pacific 2026 and RoboCup 2026 will be added only when confirmed. No unverified result is presented in this repository.
+
+<p align="center">
+  <img src="assets/results/rcap-2025-adultsize-second-place.jpg" width="48%" alt="RCAP 2025 AdultSize Humanoid League second-place trophy">
+</p>
+
+<p align="center"><em>RCAP 2025 · AdultSize Humanoid League · Second place</em></p>
 
 ## Skills demonstrated
 
@@ -207,27 +242,24 @@ Results for RoboCup Asia-Pacific 2026 and RoboCup 2026 will be added only when c
 
 ## Future development
 
-- Add approved competition photographs and robot-testing media
 - Publish verified results for the 2026 events when available
-- Organize approved images into focused galleries with clear captions
-- Remove any gallery folders that are not used after the images are organized
+- Convert the preserved HEIC/HEIF originals to web-compatible images when a suitable codec is available
+- Expand the galleries when additional approved competition photographs become available
 
 ## Repository contents
 
 ```text
 kura-humanoid-robotics/
 ├── README.md                         # Main project portfolio
-├── image-drop/                       # Temporary inbox for new images
-├── assets/
-│   ├── banner/                       # Approved project header media
-│   ├── team/                         # Approved team photographs
-│   ├── robots/                       # Approved robot photographs
-│   ├── technical/                    # Testing and debugging media
-│   ├── results/                      # Publicly shareable result graphics
-│   └── competitions/                 # Event-specific approved media
-│       ├── rcap-2025-abu-dhabi/
-│       ├── rcap-2026-tianjin/
-│       └── robocup-2026-south-korea/
+└── assets/
+    ├── banner/                       # Lead portfolio image
+    ├── team/                         # Team imagery
+    ├── robots/                       # Humanoid robot showcase
+    ├── technical/                    # Testing and debugging photographs
+    ├── results/                      # Confirmed competition results
+    └── competitions/                 # Event-specific galleries
+        ├── rcap-2025-abu-dhabi/
+        └── robocup-2026-south-korea/
 ```
 
 ## Repository notice
