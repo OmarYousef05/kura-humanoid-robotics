@@ -139,7 +139,10 @@ No private logs, credentials, robot configuration, or restricted implementation 
 
 ## Image gallery
 
-Images will be added only after confirming that they are suitable for public portfolio use. The planned gallery locations are shown below so this README remains clean and free of broken image icons in the meantime.
+Images will be added only after confirming that they are suitable for public portfolio use. To add photos, place all of the original image files in [`image-drop/`](image-drop/) without sorting or renaming them first. I can then review their visible content, give them clear filenames, move them into the appropriate galleries below, update this README, and remove any image folders that remain unused.
+
+> [!NOTE]
+> The `image-drop/` folder is a temporary inbox. Only add images that you have permission to publish and check that they do not show private code, credentials, internal logs, robot configuration, or restricted material.
 
 <table>
   <tr>
@@ -171,28 +174,6 @@ Public-use approval required before uncommenting image elements.
 ![Field debugging](assets/technical/field-debugging.jpg)
 ![Robot testing](assets/technical/robot-testing.jpg)
 -->
-
-## Video demonstrations
-
-Video URLs have not yet been published. Each card links to the [video catalogue](videos/README.md), where the future media and thumbnail locations are documented without inventing links.
-
-<table>
-  <tr>
-    <td width="50%" valign="top"><a href="videos/README.md#robot-behaviour-demonstration"><strong>Robot Behaviour Demonstration</strong></a><br><br>Planned overview of behaviour in action.<br><code>assets/video-thumbnails/robot-behaviour.jpg</code></td>
-    <td width="50%" valign="top"><a href="videos/README.md#adjust-behaviour-testing"><strong>Adjust Behaviour Testing</strong></a><br><br>Planned testing and alignment demonstration.<br><code>assets/video-thumbnails/adjust-behaviour.jpg</code></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><a href="videos/README.md#chase-behaviour-testing"><strong>Chase Behaviour Testing</strong></a><br><br>Planned ball-approach demonstration.<br><code>assets/video-thumbnails/chase-behaviour.jpg</code></td>
-    <td width="50%" valign="top"><a href="videos/README.md#competition-field-testing"><strong>Competition Field Testing</strong></a><br><br>Planned field integration footage.<br><code>assets/video-thumbnails/field-testing.jpg</code></td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="videos/README.md#robocup-asia-pacific-2025-highlights"><strong>RCAP 2025 Highlights</strong></a><br><br>Planned Abu Dhabi event highlights.<br><code>assets/video-thumbnails/rcap-2025.jpg</code></td>
-    <td valign="top"><a href="videos/README.md#robocup-asia-pacific-2026-highlights"><strong>RCAP 2026 Highlights</strong></a><br><br>Planned Tianjin event highlights.<br><code>assets/video-thumbnails/rcap-2026.jpg</code></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><a href="videos/README.md#robocup-2026-highlights"><strong>RoboCup 2026 Highlights</strong></a><br><br>Planned South Korea event highlights.<br><code>assets/video-thumbnails/robocup-2026.jpg</code></td>
-  </tr>
-</table>
 
 ## Competition results
 
@@ -228,33 +209,25 @@ Results for RoboCup Asia-Pacific 2026 and RoboCup 2026 will be added only when c
 
 - Add approved competition photographs and robot-testing media
 - Publish verified results for the 2026 events when available
-- Add public video links and thumbnail cards after media review
-- Create portfolio-safe behaviour diagrams and pseudocode where permitted
-- Add condensed, non-sensitive snippets that demonstrate general engineering patterns
-- Expand technical case studies without revealing private team implementation
+- Organize approved images into focused galleries with clear captions
+- Remove any gallery folders that are not used after the images are organized
 
 ## Repository contents
 
 ```text
 kura-humanoid-robotics/
 ├── README.md                         # Main project portfolio
+├── image-drop/                       # Temporary inbox for new images
 ├── assets/
 │   ├── banner/                       # Approved project header media
 │   ├── team/                         # Approved team photographs
 │   ├── robots/                       # Approved robot photographs
 │   ├── technical/                    # Testing and debugging media
-│   ├── video-thumbnails/             # Preview images for published videos
 │   ├── results/                      # Publicly shareable result graphics
 │   └── competitions/                 # Event-specific approved media
 │       ├── rcap-2025-abu-dhabi/
 │       ├── rcap-2026-tianjin/
 │       └── robocup-2026-south-korea/
-├── videos/
-│   └── README.md                     # Video catalogue and publication guidance
-├── snippets/
-│   └── README.md                     # Portfolio-safe code guidance
-└── docs/
-    └── README.md                     # Technical case-study guidance
 ```
 
 ## Repository notice
@@ -269,7 +242,7 @@ This repository does **not** contain:
 - Restricted research material or unapproved source code
 - A complete implementation of the team's perception, control, or communication systems
 
-Selected portfolio-safe diagrams, pseudocode, or condensed snippets may be added later where permission and confidentiality requirements allow. No software license is included because this repository may contain team-related photographs and documentation that should not automatically be licensed for reuse.
+Only approved images and portfolio-safe descriptions will be added. No software license is included because this repository may contain team-related photographs and written material that should not automatically be licensed for reuse.
 
 ## Credits
 
